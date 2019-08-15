@@ -23,6 +23,7 @@ body {
   @include bp(wide) {
     font-size: 20px;
   }
+  animation: filter-animation 10s infinite;
 }
 
 .container {
@@ -43,6 +44,7 @@ header {
   padding-top: 4em;
   padding-bottom: 10em;
   color: $body-color;
+  animation: filter-animation 10s infinite;
 }
 
 form {
@@ -105,7 +107,7 @@ form {
       color: $text-color-bold;
     }
   }
-
+  animation: filter-animation 10s infinite;
 }
 
 footer {
@@ -114,6 +116,7 @@ footer {
   font-size: 0.7em;
   color: $text-color-light;
   line-height: 1.8em;
+  animation: filter-animation 10s infinite;
 }
 
 h1 {
@@ -140,6 +143,7 @@ a {
     border-bottom-style: solid;
     border-bottom-color: $text-color-light;
   }
+  animation: filter-animation 10s infinite;
 }
 
 a.btn-dtn {
@@ -159,4 +163,5 @@ a.btn-dtn {
   margin-bottom: 2em;
   color: $text-color-light;
   font-size: 0.8em;
+  animation: filter-animation 10s infinite;
 }
